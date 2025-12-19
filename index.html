@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mush Mush Cogumelos | Fornecedor B2B</title>
+  <meta name="description" content="Mush Mush Cogumelos - fornecedor de cogumelos frescos para empresas, empacotadores e supermercados." />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-800">
+
+  <!-- HERO -->
+  <section class="bg-gradient-to-br from-emerald-700 to-emerald-900 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+          Mush Mush Cogumelos
+        </h1>
+        <p class="mt-6 text-lg text-emerald-100">
+          Fornecedor de cogumelos frescos e selecionados para empresas, empacotadores e supermercados.
+        </p>
+
+        <!-- CTA WhatsApp -->
+        <a
+          id="whatsapp-cta"
+          href="#"
+          class="inline-block mt-8 bg-white text-emerald-800 font-semibold px-8 py-4 rounded-2xl shadow-lg hover:bg-emerald-50 transition"
+        >
+          Falar com vendas no WhatsApp
+        </a>
+      </div>
+
+      <div class="relative">
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+          alt="Cogumelos frescos"
+          class="rounded-2xl shadow-2xl"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="py-20">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold">Especialistas em fornecimento B2B</h2>
+      <p class="mt-6 text-neutral-600 max-w-3xl mx-auto">
+        Atendemos empresas que precisam de fornecimento confiável de cogumelos, com padrão de qualidade,
+        logística eficiente e volumes sob demanda.
+      </p>
+
+      <div class="mt-12 grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow">
+          <h3 class="font-semibold text-xl">Empacotadores</h3>
+          <p class="mt-4 text-neutral-600">Fornecimento contínuo e padronizado.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow">
+          <h3 class="font-semibold text-xl">Supermercados</h3>
+          <p class="mt-4 text-neutral-600">Produtos frescos e prontos para gôndola.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow">
+          <h3 class="font-semibold text-xl">Indústrias</h3>
+          <p class="mt-4 text-neutral-600">Qualidade e rastreabilidade garantidas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="bg-neutral-100 py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center">Nosso dia a dia</h2>
+      <p class="text-center text-neutral-600 mt-4">Acompanhe nosso Instagram</p>
+
+      <!-- Carrossel destacado (Embed oficial, sem API) -->
+      <div class="relative mt-12">
+
+        <!-- Botão Esquerda -->
+        <button id="ig-prev" class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg rounded-full w-10 h-10 items-center justify-center hover:bg-neutral-100">
+          ◀
+        </button>
+
+        <!-- Botão Direita -->
+        <button id="ig-next" class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg rounded-full w-10 h-10 items-center justify-center hover:bg-neutral-100">
+          ▶
+        </button>
+
+        <div id="ig-carousel" class="overflow-x-auto scroll-smooth">
+          <div class="flex gap-6 snap-x snap-mandatory px-12">
+
+            <div class="min-w-[320px] md:min-w-[360px] snap-center">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cx8M_6rr9re/" data-instgrm-version="14"></blockquote>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[360px] snap-center">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CyviB0nLr54/" data-instgrm-version="14"></blockquote>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[360px] snap-center">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CxnSZGJrVM3/" data-instgrm-version="14"></blockquote>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[360px] snap-center">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CwXJ2zMrK4Z/" data-instgrm-version="14"></blockquote>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[360px] snap-center">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CvQm9r8LxT1/" data-instgrm-version="14"></blockquote>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[360px] snap-center">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cu7Yp4nJkA9/" data-instgrm-version="14"></blockquote>
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[360px] snap-center">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CtR5W0XH2qB/" data-instgrm-version="14"></blockquote>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center text-sm text-neutral-500 mt-6">Use as setas ou arraste para o lado</p>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold">Quer fornecer com quem entende do assunto?</h2>
+      <p class="mt-6 text-neutral-600">Entre em contato agora e solicite uma cotação.</p>
+
+      <a
+        href="#"
+        id="whatsapp-cta-footer"
+        class="inline-block mt-8 bg-emerald-700 text-white font-semibold px-10 py-4 rounded-2xl shadow-lg hover:bg-emerald-800 transition"
+      >
+        Chamar no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-neutral-900 text-neutral-300 py-8">
+    <div class="max-w-6xl mx-auto px-6 text-center text-sm">
+      © 2025 Mush Mush Cogumelos · Todos os direitos reservados
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script async src="https://www.instagram.com/embed.js"></script>
+  <script>
+    const carousel = document.getElementById('ig-carousel');
+    const next = document.getElementById('ig-next');
+    const prev = document.getElementById('ig-prev');
+
+    if (carousel && next && prev) {
+      const scrollAmount = 380;
+
+      next.addEventListener('click', () => {
+        carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      });
+
+      prev.addEventListener('click', () => {
+        carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+      });
+    }
+  </script>
+
+</body>
+</html>
